@@ -23,6 +23,347 @@
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/crimson-text/crimson-text-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/crimson-text/crimson-text-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/crimson-text/crimson-text-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/crimson-text/crimson-text-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/crimson-text/crimson-text-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/crimson-text/crimson-text-700-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Crimson Text\", serif",
+					"name": "Crimson Text",
+					"slug": "crimson-text"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/inter/inter-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/inter/inter-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter/inter-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter/inter-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/inter/inter-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/inter/inter-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/inter/inter-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/inter/inter-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter/inter-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter/inter-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/inter/inter-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/inter/inter-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Source Serif 4\", serif",
+					"name": "Source Serif 4",
+					"slug": "source-serif-4"
 				}
 			]
 		},
@@ -31,6 +372,14 @@
 	"styles": {
 		"color": {
 			"background": "#f7f5f3"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontSize": "27px"
+				}
+			}
 		},
 		"spacing": {
 			"padding": {
