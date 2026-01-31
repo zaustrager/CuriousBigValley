@@ -15,8 +15,8 @@ A WordPress block theme
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial release
+= 0.1.080 =
+* Initial development
 
 
 == Copyright ==
