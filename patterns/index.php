@@ -8,15 +8,7 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"color":{"background":"#f7f5f3"},"spacing":{"padding":{"right":"2.25rem","left":"2.25rem"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group has-background" style="background-color:#f7f5f3;padding-right:2.25rem;padding-left:2.25rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px"},"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"fontFamily":"inter"} -->
-<h2 class="wp-block-heading has-text-align-center has-inter-font-family" style="padding-top:20px;padding-bottom:20px;font-size:48px"><?php esc_html_e('Welcome to my blog!', 'waterville');?></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
-<p class="has-text-align-center" style="font-size:18px"><?php esc_html_e('This is a simple theme designed for writers.', 'waterville');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"contentSize":null,"type":"constrained"}} -->
+<main class="wp-block-group has-background" style="background-color:#f7f5f3;padding-right:2.25rem;padding-left:2.25rem"><!-- wp:query {"queryId":0,"query":{"perPage":100,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"contentSize":null,"type":"constrained"}} -->
 <div class="wp-block-query"><!-- wp:separator -->
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
