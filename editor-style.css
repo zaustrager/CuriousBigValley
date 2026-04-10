@@ -1,0 +1,27 @@
+/* Editor canvas body text */
+.editor-styles-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 21px;
+    line-height: 1.8;
+    color: #1a1a1a;
+}
+
+/* Post title */
+.editor-styles-wrapper .wp-block-post-title,
+.editor-post-title__input,
+.editor-post-title textarea {
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.02em;
+    color: #111;
+    margin-bottom: 1.5rem;
+}
+
+/* Paragraph blocks */
+.editor-styles-wrapper .wp-block-paragraph {
+    font-size: 21px;
+    line-height: 1.8;
+    margin-bottom: 1.25em;
+    color: #1a1a1a;
+}
