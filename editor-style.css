@@ -26,10 +26,12 @@
     color: #1a1a1a;
 }
 
-.editor-styles-wrapper .wp-block-paragraph:first-of-type::first-letter {
+/* Drop cap — single posts only */
+.post-type-post .editor-styles-wrapper .wp-block-paragraph:first-of-type::first-letter {
     float: left;
     font-size: 4em;
     line-height: 0.85;
     margin: 0.05em 0.1em 0 0;
     font-weight: 700;
+    font-family: "Source Serif 4", Georgia, serif;
 }
