@@ -44,3 +44,12 @@ Tags:
     margin: 0.05em 0.1em 0 0;
     font-weight: 700;
 }
+
+.entry-content.wp-block-post-content > p:first-child::first-letter {
+    float: left;
+    font-size: 4em;
+    line-height: 0.85;
+    margin: 0.05em 0.1em 0 0;
+    font-weight: 700;
+    font-family: "Source Serif 4", Georgia, serif;
+}
