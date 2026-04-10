@@ -370,6 +370,11 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/paragraph": {
+				"css": "p.has-drop-cap:not(:focus)::first-letter { font-size: 3.5em; font-weight: 700; float: left; line-height: 0.8; margin: 0.1em 0.1em 0 0; font-family: var(--wp--preset--font-family--inter); }"
+			}
+		},
 		"color": {
 			"background": "#f7f5f3"
 		},
@@ -379,11 +384,6 @@
 					"fontFamily": "var(--wp--preset--font-family--inter)",
 					"fontSize": "27px"
 				}
-			}
-		},
-		"blocks": {
-			"core/paragraph": {
-				"css": "p.has-drop-cap:not(:focus)::first-letter { font-size: 3.5em; font-weight: 700; float: left; line-height: 0.8; margin: 0.1em 0.1em 0 0; font-family: var(--wp--preset--font-family--inter); }"
 			}
 		},
 		"spacing": {
