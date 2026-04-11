@@ -1,0 +1,373 @@
+/**
+ * About Page Template Styles — FSE Edition
+ * File: assets/css/about-page.css
+ *
+ * Enqueue this in functions.php:
+ *
+ *   function theme_enqueue_about_styles() {
+ *       wp_enqueue_block_style( 'core/group', [
+ *           'handle' => 'about-page',
+ *           'src'    => get_template_directory_uri() . '/assets/css/about-page.css',
+ *           'path'   => get_template_directory() . '/assets/css/about-page.css',
+ *       ]);
+ *   }
+ *   add_action( 'init', 'theme_enqueue_about_styles' );
+ *
+ * OR simply @import it into your theme's main style.css.
+ */
+
+/* =============================================
+   DESIGN TOKENS
+   ============================================= */
+:root {
+  --about-bg:           #0d0d0d;
+  --about-surface:      #161616;
+  --about-border:       rgba(255,255,255,0.08);
+  --about-text:         #e8e4dc;
+  --about-muted:        #888;
+  --about-accent:       #c8a96e;
+  --about-accent-light: #e2c98f;
+  --about-font-display: 'Playfair Display', Georgia, serif;
+  --about-font-body:    'DM Sans', system-ui, sans-serif;
+  --about-radius:       4px;
+  --about-gap:          clamp(3rem, 8vw, 7rem);
+}
+
+/* =============================================
+   GLOBAL PAGE RESET (scoped to about sections)
+   ============================================= */
+.about-hero,
+.about-story,
+.about-values,
+.about-stats,
+.about-team,
+.about-quote,
+.about-cta {
+  font-family: var(--about-font-body);
+  color: var(--about-text);
+  padding-block: var(--about-gap);
+  border-bottom: 1px solid var(--about-border);
+}
+
+/* =============================================
+   HERO
+   ============================================= */
+.about-hero {
+  background: var(--about-bg);
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 60% at 70% 50%, rgba(200,169,110,0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 10% 80%, rgba(200,169,110,0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.about-hero__eyebrow {
+  display: inline-block;
+  font-size: 0.75rem !important;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--about-accent) !important;
+  margin-bottom: 1.25rem;
+}
+
+.about-hero .about-hero__headline {
+  font-family: var(--about-font-display) !important;
+  font-size: clamp(2.5rem, 6vw, 5rem) !important;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fff !important;
+  margin-bottom: 1.5rem;
+}
+
+.about-hero__subtext {
+  font-size: clamp(1rem, 2vw, 1.25rem) !important;
+  color: var(--about-muted) !important;
+  max-width: 540px;
+}
+
+/* =============================================
+   STORY
+   ============================================= */
+.about-story {
+  background: var(--about-bg);
+}
+
+.about-story__grid.wp-block-columns {
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-label-text {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--about-accent);
+  font-weight: 600;
+}
+
+.about-story__content p {
+  font-size: 1.125rem;
+  color: var(--about-text);
+}
+
+/* =============================================
+   VALUES
+   ============================================= */
+.about-values {
+  background: var(--about-surface);
+}
+
+.about-values__heading {
+  font-family: var(--about-font-display) !important;
+  font-size: clamp(1.75rem, 4vw, 2.75rem) !important;
+  font-weight: 700;
+  color: #fff !important;
+  margin-bottom: 3rem;
+}
+
+.about-values__grid.wp-block-columns {
+  gap: 1.5rem;
+}
+
+.about-values__card.wp-block-column {
+  padding: 2rem;
+  border: 1px solid var(--about-border);
+  border-radius: var(--about-radius);
+  transition: border-color 0.25s, transform 0.25s;
+}
+
+.about-values__card.wp-block-column:hover {
+  border-color: var(--about-accent);
+  transform: translateY(-4px);
+}
+
+.about-values__icon {
+  font-size: 1.75rem !important;
+  margin-bottom: 1rem;
+}
+
+.about-values__title {
+  font-family: var(--about-font-display) !important;
+  font-size: 1.25rem !important;
+  font-weight: 600;
+  color: #fff !important;
+  margin-bottom: 0.5rem;
+}
+
+.about-values__desc {
+  color: var(--about-muted) !important;
+  font-size: 0.9375rem !important;
+  margin: 0;
+}
+
+/* =============================================
+   STATS
+   ============================================= */
+.about-stats {
+  background: var(--about-bg);
+}
+
+.about-stats__grid.wp-block-columns {
+  text-align: center;
+  gap: 2rem;
+}
+
+.about-stats__item.wp-block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.about-stats__number {
+  font-family: var(--about-font-display) !important;
+  font-size: clamp(2.5rem, 5vw, 4rem) !important;
+  font-weight: 700;
+  color: var(--about-accent) !important;
+  line-height: 1;
+}
+
+.about-stats__label {
+  font-size: 0.85rem !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--about-muted) !important;
+}
+
+/* =============================================
+   TEAM
+   ============================================= */
+.about-team {
+  background: var(--about-bg);
+}
+
+.about-team__heading {
+  font-family: var(--about-font-display) !important;
+  font-size: clamp(1.75rem, 4vw, 2.75rem) !important;
+  font-weight: 700;
+  color: #fff !important;
+  margin-bottom: 3rem;
+}
+
+.about-team__grid.wp-block-columns {
+  gap: 2rem;
+}
+
+.about-team__card.wp-block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about-team__photo-wrap.wp-block-image {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--about-radius);
+  margin-bottom: 0.75rem;
+}
+
+.about-team__photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.about-team__card:hover .about-team__photo-wrap img {
+  transform: scale(1.04);
+}
+
+.about-team__name {
+  font-family: var(--about-font-display) !important;
+  font-size: 1.1rem !important;
+  font-weight: 600;
+  color: #fff !important;
+  margin: 0;
+}
+
+.about-team__role {
+  font-size: 0.8rem !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--about-accent) !important;
+}
+
+.about-team__bio {
+  font-size: 0.9rem !important;
+  color: var(--about-muted) !important;
+}
+
+/* =============================================
+   QUOTE
+   ============================================= */
+.about-quote {
+  background: var(--about-surface);
+  text-align: center;
+}
+
+.about-quote__text.wp-block-quote {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-quote__text p {
+  font-family: var(--about-font-display) !important;
+  font-size: clamp(1.4rem, 3.5vw, 2.25rem) !important;
+  font-style: italic;
+  line-height: 1.4;
+  color: #fff !important;
+  margin-bottom: 1.25rem;
+}
+
+.about-quote__attr {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--about-accent);
+  font-style: normal;
+}
+
+/* =============================================
+   CTA
+   ============================================= */
+.about-cta {
+  background: var(--about-bg);
+  border-bottom: none;
+}
+
+.about-cta__inner {
+  align-items: center;
+  text-align: center;
+}
+
+.about-cta__heading {
+  font-family: var(--about-font-display) !important;
+  font-size: clamp(2rem, 5vw, 3.5rem) !important;
+  font-weight: 700;
+  color: #fff !important;
+  line-height: 1.15;
+}
+
+.about-cta__sub {
+  color: var(--about-muted) !important;
+  font-size: 1.0625rem !important;
+  max-width: 480px;
+}
+
+.about-cta__button .wp-block-button__link {
+  background: var(--about-accent) !important;
+  color: #0d0d0d !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--about-radius);
+  padding: 0.875rem 2.5rem;
+  transition: background 0.2s, transform 0.2s;
+  border: none;
+}
+
+.about-cta__button .wp-block-button__link:hover {
+  background: var(--about-accent-light) !important;
+  transform: translateY(-2px);
+}
+
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+@media (max-width: 768px) {
+  .about-story__grid.wp-block-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about-values__grid.wp-block-columns,
+  .about-team__grid.wp-block-columns {
+    flex-wrap: wrap;
+  }
+
+  .about-values__card.wp-block-column,
+  .about-team__card.wp-block-column {
+    flex-basis: calc(50% - 1rem) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-values__card.wp-block-column,
+  .about-team__card.wp-block-column {
+    flex-basis: 100% !important;
+  }
+}
