@@ -15,7 +15,7 @@ A WordPress block theme
 
 == Changelog ==
 
-= 0.5.0 =
+= 0.5.201 =
 * Initial version available for live production use
 
 
