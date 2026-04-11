@@ -111,17 +111,3 @@ function theme_enqueue_about_page_styles() {
 // Hook to wp_enqueue_scripts so it loads on the front end
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_about_page_styles' );
 
-require 'plugin-update-checker/plugin-update-checker.php';
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
-
-$myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/zaustrager/waterville-valley',
-    __FILE__,
-    'waterville-valley'
-);
-
-//Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('main');
-
-//Optional: If you're using a private repository, specify the access token like this:
-//$myUpdateChecker->setAuthentication('your-token-here');
