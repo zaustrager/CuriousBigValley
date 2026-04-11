@@ -33,7 +33,7 @@ Tags:
     float: left;
     font-size: 4em;
     line-height: 0.85;
-    margin: 0.05em 0.1em 0 0;
+    margin: -0.1em 0.1em 0 0; /* negative top margin moves it up */
     font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ Tags:
     float: left;
     font-size: 4em;
     line-height: 0.85;
-    margin: 0.05em 0.1em 0 0;
+    margin: -0.1em 0.1em 0 0; /* negative top margin moves it up */
     font-weight: 700;
 }
 
@@ -49,7 +49,7 @@ Tags:
     float: left;
     font-size: 4em;
     line-height: 0.85;
-    margin: 0.05em 0.1em 0 0;
+    margin: -0.1em 0.1em 0 0; /* negative top margin moves it up */
     font-weight: 700;
     font-family: "Source Serif 4", Georgia, serif;
 }
