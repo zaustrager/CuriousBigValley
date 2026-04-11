@@ -16,16 +16,28 @@
 <p class="has-text-align-center" style="font-size:21px"><?php esc_html_e('This is a simple theme designed for writers.', 'waterville');?></p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"contentSize":null,"type":"constrained"}} -->
 <div class="wp-block-query"><!-- wp:separator -->
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
 <!-- wp:post-template {"layout":{"type":"default"}} -->
+<!-- wp:separator {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"backgroundColor":"black"} -->
+<hr class="wp-block-separator has-text-color has-black-color has-alpha-channel-opacity has-black-background-color has-background"/>
+<!-- /wp:separator -->
+
 <!-- wp:group {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"medium","fontFamily":"inter","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-inter-font-family has-medium-font-size" style="font-style:normal;font-weight:400"><!-- wp:post-title {"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"23px"},"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} /-->
 
-<!-- wp:post-date {"datetime":"2026-02-01T00:08:55.539Z"} /--></div>
+<!-- wp:post-date {"datetime":"2026-02-01T00:08:55.539Z","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
